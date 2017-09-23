@@ -22,6 +22,7 @@ protected void onCreate(Bundle savedInstanceState)
 	setContentView(R.layout.activity_main);
 	
 	Log.d(TAG, "Changed Text");
+	//there is a bug here
 	
 	
 	
@@ -31,10 +32,12 @@ protected void onCreate(Bundle savedInstanceState)
 	int ans = 0;
 	
 	val1 = 2;
+	va2=3;
 	val2 = 7;
 	ans = val1 + val1;
 	
 	Log.d(TAG, "Answer is " + ans);*/
+	this code will not compile
 	
 	
 }
